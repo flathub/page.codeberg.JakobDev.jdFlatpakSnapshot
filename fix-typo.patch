@@ -1,0 +1,23 @@
+From 095f1dde63cc4c8a1171784bdfa8f8cb911e1edf Mon Sep 17 00:00:00 2001
+From: JakobDev <jakobdev@gmx.de>
+Date: Thu, 6 Apr 2023 15:22:16 +0200
+Subject: [PATCH] Fix typo
+
+---
+ deploy/page.codeberg.JakobDev.jdFlatpakSnapshot.metainfo.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/deploy/page.codeberg.JakobDev.jdFlatpakSnapshot.metainfo.xml b/deploy/page.codeberg.JakobDev.jdFlatpakSnapshot.metainfo.xml
+index 213370f..91b1449 100644
+--- a/deploy/page.codeberg.JakobDev.jdFlatpakSnapshot.metainfo.xml
++++ b/deploy/page.codeberg.JakobDev.jdFlatpakSnapshot.metainfo.xml
+@@ -2,7 +2,7 @@
+ <component type="desktop">
+   <!--Created with jdAppStreamEdit 6.0-->
+   <id>page.codeberg.JakobDev.jdFlatpakSnapshot</id>
+-  <name>jdFlatpalSnapshot</name>
++  <name>jdFlatpakSnapshot</name>
+   <summary>A Program to create Snapshots of Flatpak Apps</summary>
+   <developer_name>JakobDev</developer_name>
+   <launchable type="desktop-id">page.codeberg.JakobDev.jdFlatpakSnapshot.desktop</launchable>
+-- 
