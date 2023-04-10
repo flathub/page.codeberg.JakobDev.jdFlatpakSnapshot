@@ -47,5 +47,3 @@ modules:
         tag: '1.1'
         x-checker-data:
           type: git
-      - type: patch
-        path: fix-typo.patch
