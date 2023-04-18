@@ -43,7 +43,7 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/JakobDev/jdFlatpakSnapshot.git
-        commit: 0d6cc2b7d6571b1ace428be5babf4c8c83241009
-        tag: '1.1'
+        commit: 0b4b02827567f2e1fc4c5cd565f523e0b6b26707
+        tag: '2.0'
         x-checker-data:
           type: git
