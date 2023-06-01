@@ -41,9 +41,11 @@ modules:
       - pip install --no-deps --no-build-isolation --prefix=$FLATPAK_DEST .
       - python ./install-unix-datafiles.py --prefix=$FLATPAK_DEST
     sources:
-      - type: git
-        url: https://codeberg.org/JakobDev/jdFlatpakSnapshot.git
-        commit: 0b4b02827567f2e1fc4c5cd565f523e0b6b26707
-        tag: '2.0'
+      - type: archive
+        url: https://codeberg.org/JakobDev/jdFlatpakSnapshot/archive/2.1.tar.gz
+        sha256: 79ddc3f22ffde917d4015ec0a6863d1505cc4b24e7c21dde71939715f07d1071
         x-checker-data:
-          type: git
+          type: json
+          url: https://codeberg.org/api/v1/repos/JakobDev/jdFlatpakSnapshot/releases/latest
+          version-query: .tag_name
+          url-query: .tarball_url
