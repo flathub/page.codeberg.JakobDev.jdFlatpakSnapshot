@@ -43,7 +43,7 @@ modules:
     sources:
       - type: archive
         url: https://codeberg.org/JakobDev/jdFlatpakSnapshot/archive/2.2.tar.gz
-        sha256: 2e80284d0ac7dbfe8b3d379b77580def5cdab00e849bc2eab5a0f3f56f43d0c2
+        sha256: 849d4d14249982a69ac690ac7ca5e18caaeda95678783c91482607d4b18e6da8
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdFlatpakSnapshot/releases/latest
